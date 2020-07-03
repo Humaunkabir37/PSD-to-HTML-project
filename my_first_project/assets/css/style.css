@@ -1,0 +1,840 @@
+
+/*===========================Home page start ===================================================*/
+/*==========================================================================================
+===============================================================================================*/
+
+
+/**********************************************************************************************
+					Base CSS Start
+***********************************************************************************************/
+*,body{
+	padding: 0;
+	margin: 0;
+}
+h2{
+	font-weight: bold;
+}
+.row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+ul{
+	margin-bottom: 0px;
+}
+.card-body{
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.owl-carousel{
+	position: relative;
+}
+.owl-carousel .owl-nav button.owl-prev{
+	position: absolute;
+	top: 45%;
+	left: -5%;
+}
+.owl-carousel .owl-nav button.owl-next{
+	position: absolute;
+	top: 45%;
+	right: -5%;
+}
+.font_35{
+	font-size: 35px;
+	color: #56ab2f;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+	border: none;
+	background: none;
+	color: black;
+}
+.owl-theme .owl-nav [class*=owl-]:focus{
+	border: none;
+	background: none;
+	color: black;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+/**********************************************************************************************
+					Base CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Common CSS Start
+***********************************************************************************************/
+.first_color{
+	color: #56ab2f;
+}
+.second_color{
+	color: #1e1d1d;
+}
+.first_bg_color{
+	background-color: #56ab2f;
+}
+.second_bg_color{
+	background-color: #1e1d1d;
+}
+.commn_margin{
+	margin-top: 80px;
+}
+.custom_left_margin{
+	margin-left: 7%;
+	margin-right: 0px;
+}
+.custom_padding_2{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.secondary-dark-blue-bg
+{
+	background-color: #fff;
+}
+/**********************************************************************************************
+					Common CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Top Header CSS Start
+***********************************************************************************************/
+#top{
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	z-index:22222;
+	position: sticky;
+	top: -60px;
+}
+.top_list{
+	list-style: none;
+}
+.top_list li{
+	padding-left: 10px;
+}
+.top_list li:first-child{
+	padding-left: 0px;
+}
+.login_border{
+	padding-left: 10px;
+	color: #c7c7c7;
+}
+/**********************************************************************************************
+					Top Header CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Nav Header CSS Start
+***********************************************************************************************/
+.custom_nv_bg_col{
+	background: rgba(254, 255, 255, .8);
+}
+.navsection{
+	
+	position: sticky;
+	top: 0;
+	z-index: 1111;
+
+}
+.navbar{
+	padding-left: 0px;
+	z-index: 11111;
+}
+.nav-link{
+	font-weight: bold;
+}
+.active .nav-link{
+	color: #56ab2f ;
+}
+.nav-link:focus{
+	color: #56ab2f;
+}
+/**********************************************************************************************
+					Nav Header CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Slider Section CSS Start
+***********************************************************************************************/
+.slider{
+	margin-top: -120px;
+	z-index: -1111;
+}
+.btn {
+	border-radius: 0px;
+	font-weight: bold;
+}
+
+.carousel-caption {
+	width: 450px;
+	height: 300px;
+    position: absolute; 
+    bottom: 25%; 
+    left: 55%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+.btn-success-color{
+	color: ;
+}
+/**********************************************************************************************
+					Slider Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					About Section CSS Start
+***********************************************************************************************/
+.custom_h2{
+	font-size: 36px ;
+}
+.custom_padding{
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+.about_bg{
+	background-image: url(../img/acadimy.png);
+	height: 90%;
+	width: 100%;
+	margin-left: 19%;
+	background-repeat: no-repeat;
+}
+.principle_img{
+	height: 83%;
+	width: 40%;
+	margin-top: 15%;
+	margin-left: -10%;
+}
+/**********************************************************************************************
+					About Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Courses Section CSS Start
+***********************************************************************************************/
+.courses{
+	padding-top: 80px;
+}
+.course_content{
+	padding-bottom: 50px;
+}
+.card-body{
+	border: 1px solid #56ab2f;
+	border-top: none;
+}
+.list{
+	list-style: none;
+}
+.list-item{
+	border: 1px solid #56ab2f;
+	width: 150px;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+}
+.list-item:nth-child(1){
+	border-left: none;
+}
+.list-item:nth-child(2){
+	border-left: none;
+	border-right: none;
+	background-color: #56ab2f;
+	color: white;
+}
+.list-item:nth-child(3){
+	border-right: none;
+}
+.card_border{
+	border-bottom: 2px solid #c7c7c7;
+	width: 120px;
+	padding-left: 25%;
+	margin-left: 33%;
+}
+/**********************************************************************************************
+					Courses Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Facts Section CSS Start
+***********************************************************************************************/
+.facts{
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+
+}
+.facts_bg{
+	background-image: url(../img/count.png);
+	background-attachment: fixed;
+	height: auto;
+	width: 100%;
+}
+.custom_row{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+/**********************************************************************************************
+					Facts Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Recent News Section CSS Start
+***********************************************************************************************/
+.news{
+	padding-top: 80px;
+
+}
+.news-heading{
+	padding-bottom: 50px;
+
+}
+.custom_body{
+	padding-left: 20px ;
+	padding-right: 20px ;
+	border-color: #f1f1f1 ;
+}
+.custom_body p{
+	margin: 0px ;
+	margin-bottom: 5px;
+}
+.custom_card_img{
+	width: 230px;
+}
+.custom_body_2{
+	padding: 10px;
+	padding-left: 20px ;
+}
+.custom_body_2 p{
+	padding: 0px ;
+	margin: 0px ;
+	margin-bottom: 1px;
+}
+/**********************************************************************************************
+					Recent News Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Recent News Section CSS Start
+***********************************************************************************************/
+
+
+.testimonial{
+padding-top: 80px;
+background-image: url(../img/lacture_bg.png);
+
+padding-bottom: 80px ;
+}
+.testimonial-heading{
+	padding-bottom: 50px;
+}
+
+.custom_image{
+	height: 100px ;
+	width: 100px ;
+	z-index: 1111;
+
+
+}
+.z_calsss{
+	z-index: 1111;
+}
+.custom_test_card{
+	padding: 20px ;
+	padding-top: 80px ;
+
+}
+.custom_card_main{
+	margin-top: -50px;
+	z-index: -1111;
+	border: 20px solid transparent;
+	padding: 15px;
+	border-image: url(http://satech360.ebookstand.net/wp-content/uploads/2020/04/css_border_image.jpg) 50% round;
+	border-top: none ;
+}
+/**********************************************************************************************
+					Recent News Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					News Letter Section CSS Start
+***********************************************************************************************/
+.newsletter{
+padding-top: 80px;
+height: 40vh;
+}
+.newsletter-heading{
+}
+
+input[type=email] {
+  width: 300px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  border:1px solid #fff ;
+  color: white;
+}
+input[type=email]:focus {
+  border:1px solid #fff ;
+}
+input[type=email]::placeholder {
+  color:white;
+}
+.mailbtn{
+	padding: 10px 15px;
+	border-color: #9bc887;
+
+}
+/**********************************************************************************************
+					News Letter Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Footer Section CSS Start
+***********************************************************************************************/
+
+.footer{
+	
+	background-color: #1e1d1d;
+}
+.custom_padding_footer{
+	padding-top: 80px;
+}
+.custom_padding_l{
+	padding: 10px;
+	padding-left: 50px;
+}.custom_padding_t{
+	padding-top: 10px;
+}
+.list{
+	list-style: none;
+	padding-top: 20px;
+}
+.footer_text{
+	padding-top: 25px;
+}
+.footer .list li{
+	color: white;
+	padding-left: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.col-6{
+	padding-left: 0px; 
+}
+.footer_bottom{
+	padding: 0;
+	margin: 0;
+	border-top: 2px solid #56ab2f;
+	
+	background-color: #1e1d1d;
+	padding-top: 10px;
+}
+.custom_list{
+	padding-top: 0px;
+	text-align: right ;
+}
+.custom_list li {
+	height: 35px ;
+	width: 35px ;
+	background-color: transparent;
+	border: 1px solid #56ab2f;
+	margin-left: 5px;
+	border-radius: 50%;
+}
+.custom_list li a{
+	text-align: center;
+	padding-right: 0px;
+	font-size: 12px;
+	color: white;
+}
+.c_p{
+	padding-right: 3px;
+}
+.custom_list li a:first-child{
+	
+	padding-right: 10px;
+}
+.custom_list li a:hover{
+	color: #56ab2f;
+}
+/**********************************************************************************************
+					Footer Section CSS End
+***********************************************************************************************/
+
+/**********************************************************************************************
+					 Scroll CSS Start
+***********************************************************************************************/
+.scroll-top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  display: none;
+  border-radius: 50%;
+  background-color: #56ab2f;
+
+}
+.scroll-top i {
+  display: inline-block;
+  color: #fff;
+}
+/********************************************************************************
+					 Scroll CSS End
+*********************************************************************************/
+
+/*===========================Home page end ===================================================*/
+/*==========================================================================================
+===============================================================================================*/
+
+/*===========================About page start ===================================================*/
+/*==========================================================================================
+===============================================================================================*/
+
+/**************************************************************
+			about picture css start
+****************************************************************/
+
+.custom_bg_stu{
+	background-image: url(../img/course.png);
+}
+.say{
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+.text-cent{
+	text-align: center;
+	color: white;
+}
+.colo{
+	color: green;
+}
+/**************************************************************
+			about picture css end
+**************************************************************/
+
+/**************************************************************
+			teacher css start
+**************************************************************/
+.card-img-top{
+	height: 220px;
+}
+.wrapper{
+	padding-bottom: 100px;
+}
+.center{
+	
+	padding: 10px;
+}
+
+/**************************************************************
+			teacher css end
+**************************************************************/
+
+/*===========================About page end ===================================================*/
+/*==========================================================================================
+===============================================================================================*/
+
+
+/*===========================course page start ===================================================*/
+/*==========================================================================================
+===============================================================================================*/
+.h2{
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+.card123{
+	padding-bottom: 50px;
+}
+
+/*===========================course page end ===================================================*/
+/*==========================================================================================
+===============================================================================================*/
+
+
+/*===========================course details page start ===================================================*/
+/*==========================================================================================
+===============================================================================================*/
+
+/**************************************************************
+			course details section css start
+****************************************************************/
+
+.text{
+	padding-top: 100px;
+}
+.card{
+	margin-top: 50px;
+}
+.card-header{
+	background-color: #339900;
+	color: white;
+	padding-left: 35%;
+}
+.padd{
+	padding-left: 30%;
+}
+.padd1{
+	padding-left: 45%;
+}
+.padd2{
+	padding-left: 40%;
+}
+.padd3{
+	padding-left: 27%;
+
+}
+.padd4{
+	padding-left: 27%;
+}
+.padd5{
+	padding-left: 38%;
+}
+.padd6{
+
+	padding-left: 13%;
+}
+.button_group{
+	padding-left: 100px;
+}
+.nav-link{
+	padding-top: 0%;
+}
+
+.nn{
+	margin-top: 50px;
+}
+.mm{
+	margin-top: 30px;
+}
+.ll{
+	color: black;
+	padding-left: 10px;
+}
+.hh{
+	color: black;
+}
+.uu{
+	padding-bottom: 20px;
+}
+.pict{
+	margin-top: 50px;
+	
+}
+.pic{
+	padding-right: 10px;
+}
+.instructor{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.social{
+	padding-right: 5px;
+	color: black;
+}
+.soc{
+	padding-left: 60px;
+
+}
+.ic{
+	color: green;
+}
+.left{
+	padding-left: 60px;
+}
+.ww{
+	padding-top: 30px;
+}
+.aa{
+	padding-left: 490px;
+	padding-bottom: 50px;
+
+}
+.bot{
+	padding-bottom: 30px;
+}
+.study_img{
+	height: 500px;
+	width: 700px;
+}
+
+/**************************************************************
+			course details section css end
+***************************************************************
+/*===========================course details page end ===================================================*/
+/*==========================================================================================
+===============================================================================================*/
+
+/*===========================our teacher page start ===================================================*/
+/*==========================================================================================
+===============================================================================================*/
+.mas{
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.txt{
+	padding: 10px;
+}
+.pag{
+	padding-top: 50px;
+	padding-left: 35%;
+	padding-bottom: 50px;
+	
+}
+.page-link{
+	color: #2bb775;
+}
+
+/*===========================our teacher page end ===================================================*/
+/*==========================================================================================
+===============================================================================================*/
+
+/*===========================contact page start ===================================================*/
+/*==========================================================================================
+===============================================================================================*/
+.contain{
+	margin-left: 110px;
+}
+.lim{
+	padding-left: 5px;
+}
+.zz{
+	padding-left: 40%;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+/*===========================contact page end ===================================================*/
+/*==========================================================================================
+===============================================================================================*/
+
+/*===========================error page start ===================================================*/
+/*==========================================================================================
+===============================================================================================*/
+.error{
+	padding-left: 40%;
+	padding-top: 40px;
+}
+.sorry{
+	color: green;
+	padding-top: 10px;
+	padding-left: 40%;
+}
+.xx{
+	padding-left: 40%;
+	padding-bottom: 50px;
+}
+.po{
+	padding-left: 40%;
+}
+.lo{
+	padding-left: 40px;
+	padding-top: 50px;
+}
+/*===========================error page end ===================================================*/
+/*==========================================================================================
+===============================================================================================*/
+
+
+/**********************************************************************************************
+					Responsive CSS Start
+***********************************************************************************************/
+
+   @media only screen and (max-width: 800px) {
+  .study_img{
+  	 height: 500px;
+  	 width:500px;
+  	color: transparent;
+  }
+}
+   @media only screen and (max-width: 500px) {
+  .study_img{
+  	 height: 300px;
+  	 width:250px;
+  	color: transparent;
+  }
+}
+   @media only screen and (max-width: 420px) {
+  .first_bg_color{
+  	 height: 400px;
+  	color: transparent;
+  }
+}
+   @media only screen and (min-width: 20px) {
+  .first_bg_color{
+  	 height: 450px;
+  	color: transparent;
+  }
+}
+ @media only screen and (max-width: 1200px) {
+  .map{
+  	 height: 800px;
+  	 width:1000px;
+  	color: transparent;
+  }
+}
+ @media only screen and (max-width: 1000px) {
+  .map{
+  	 height: 600px;
+  	 width:800px;
+  	color: transparent;
+  }
+}
+
+   @media only screen and (max-width: 800px) {
+  .map{
+  	 height: 400px;
+  	 width:550px;
+  	color: transparent;
+  }
+}
+   @media only screen and (max-width: 500px) {
+  .map{
+  	 height: 200px;
+  	 width:300px;
+  	color: transparent;
+  }
+}
+ @media only screen and (max-width: 500px) {
+  .error{
+  	 height: 200px;
+  	 width:300px;
+  	color: transparent;
+  }
+  .pag{
+  	padding-left: 10%;
+  }
+}
+
+
+
+
+ 
+@media only screen and (max-width: 900px) {
+  .d_class{
+  	display: none;
+  	color: transparent;
+  }
+ 
+  .about_bg{
+  	margin-left: 0px !important;
+  }
+  .custom_card_img{
+  	width: 100%;
+  	height: 280px;
+  }
+  .copy{
+  	text-align: center;
+  }
+  .facts_custom{
+  	text-align: center;
+  	padding-bottom: 10px;
+  }
+  .custom_pt_news{
+  	margin-top: 15px;
+  }
+  .custom_padding_l{
+  	padding-left: 0px !important;
+
+  }
+}
+/**********************************************************************************************
+					Responsive CSS End
+***********************************************************************************************/
+
+
